@@ -42,9 +42,8 @@ export default function RandomColor() {
 
                 <button className='text-black mx-3 text-nowrap bg-white px-5 py-3 border-2' onClick={typeOfColor==="hex"?handleCreateRandomHexColor:handleCreateRandomRgbColor}>Generate Random color</button>
            </div>
-            <div className='flex flex-col justify-center items-center text-white text-6xl gap-6 h-full'>
+            <div className='flex flex-col justify-center items-center text-white text-6xl gap-10 h-full'>
                 <h3>{typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}</h3>
-                
                 <h1>{color}</h1>
             </div>
 
